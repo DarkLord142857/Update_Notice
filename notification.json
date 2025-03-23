@@ -1,0 +1,744 @@
+[
+    {
+        "id": "1",
+        "game": "Audition",
+        "size": "506.30 KB",
+        "date": "2025-03-22 14:11:40",
+        "status": "Finish"
+    },
+    {
+        "id": "2",
+        "game": "IdentityV",
+        "size": "224.45 KB",
+        "date": "2025-03-22 14:05:47",
+        "status": "Finish"
+    },
+    {
+        "id": "3",
+        "game": "Once Human Steam",
+        "size": "1.17 MB",
+        "date": "2025-03-22 13:43:00",
+        "status": "Finish"
+    },
+    {
+        "id": "4",
+        "game": "LienMinhHuyenThoai",
+        "size": "645.41 KB",
+        "date": "2025-03-22 10:00:32",
+        "status": "Finish"
+    },
+    {
+        "id": "5",
+        "game": "Warfame",
+        "size": "813.14 KB",
+        "date": "2025-03-21 22:00:09",
+        "status": "Finish"
+    },
+    {
+        "id": "6",
+        "game": "Diablo Immortal",
+        "size": "1.11 MB",
+        "date": "2025-03-21 21:42:12",
+        "status": "Finish"
+    },
+    {
+        "id": "7",
+        "game": "Warface Clutch Steam",
+        "size": "873.83 KB",
+        "date": "2025-03-21 21:34:06",
+        "status": "Finish"
+    },
+    {
+        "id": "8",
+        "game": "Warface International",
+        "size": "324.40 KB",
+        "date": "2025-03-21 21:30:42",
+        "status": "Finish"
+    },
+    {
+        "id": "9",
+        "game": "CSGO",
+        "size": "1.17 MB",
+        "date": "2025-03-21 21:27:27",
+        "status": "Finish"
+    },
+    {
+        "id": "10",
+        "game": "Rust Steam",
+        "size": "1.08 MB",
+        "date": "2025-03-21 21:22:53",
+        "status": "Finish"
+    },
+    {
+        "id": "11",
+        "game": "World of Tanks ASIA",
+        "size": "514.60 KB",
+        "date": "2025-03-21 21:18:27",
+        "status": "Finish"
+    },
+    {
+        "id": "12",
+        "game": "Marvel Rivals Steam",
+        "size": "902.02 KB",
+        "date": "2025-03-21 09:06:20",
+        "status": "Finish"
+    },
+    {
+        "id": "13",
+        "game": "Mortal Kombat 11 Steam",
+        "size": "2.39 MB",
+        "date": "2025-03-21 09:06:20",
+        "status": "Finish"
+    },
+    {
+        "id": "14",
+        "game": "Black Desert",
+        "size": "1.63 MB",
+        "date": "2025-03-20 15:27:45",
+        "status": "Finish"
+    },
+    {
+        "id": "15",
+        "game": "BlackDesert SEA",
+        "size": "1.43 MB",
+        "date": "2025-03-20 15:27:45",
+        "status": "Finish"
+    },
+    {
+        "id": "16",
+        "game": "Roblox",
+        "size": "671.80 KB",
+        "date": "2025-03-20 07:19:02",
+        "status": "Finish"
+    },
+    {
+        "id": "17",
+        "game": "Dot Kich",
+        "size": "1.02 MB",
+        "date": "2025-03-20 07:18:53",
+        "status": "Finish"
+    },
+    {
+        "id": "18",
+        "game": "Wuthering Waves",
+        "size": "440.95 KB",
+        "date": "2025-03-19 22:18:51",
+        "status": "Finish"
+    },
+    {
+        "id": "19",
+        "game": "World of Tanks Blitz",
+        "size": "5.94 MB",
+        "date": "2025-03-19 21:59:51",
+        "status": "Finish"
+    },
+    {
+        "id": "20",
+        "game": "War Thunder",
+        "size": "1.60 MB",
+        "date": "2025-03-19 21:59:01",
+        "status": "Finish"
+    },
+    {
+        "id": "46",
+        "game": "CuuAmChanKinh2",
+        "size": "384.21 KB",
+        "date": "2025-03-11 09:10:44",
+        "status": "Finish"
+    },
+    {
+        "id": "47",
+        "game": "ARK Survival Ascended Steam",
+        "size": "1.22 MB",
+        "date": "2025-03-09 21:25:10",
+        "status": "Finish"
+    },
+    {
+        "id": "48",
+        "game": "GTA V Steam",
+        "size": "1.07 MB",
+        "date": "2025-03-09 15:03:38",
+        "status": "Finish"
+    },
+    {
+        "id": "49",
+        "game": "WarhammerVermintide 2 Steam",
+        "size": "1.49 MB",
+        "date": "2025-03-08 20:35:07",
+        "status": "Finish"
+    },
+    {
+        "id": "50",
+        "game": "Forza Horizon 4 Steam",
+        "size": "1.49 MB",
+        "date": "2025-03-08 12:17:23",
+        "status": "Finish"
+    },
+    {
+        "id": "51",
+        "game": "LoL Korea",
+        "size": "497.69 KB",
+        "date": "2025-03-08 12:17:00",
+        "status": "Finish"
+    },
+    {
+        "id": "52",
+        "game": "PUBG Mobile Global",
+        "size": "3.10 MB",
+        "date": "2025-03-08 11:18:30",
+        "status": "Finish"
+    },
+    {
+        "id": "53",
+        "game": "Delta Force",
+        "size": "789.80 KB",
+        "date": "2025-03-07 16:33:18",
+        "status": "Finish"
+    },
+    {
+        "id": "54",
+        "game": "COD WarZone 2 Steam",
+        "size": "5.39 MB",
+        "date": "2025-03-07 15:45:41",
+        "status": "Finish"
+    },
+    {
+        "id": "55",
+        "game": "Apex Legends",
+        "size": "1.36 MB",
+        "date": "2025-03-07 11:59:52",
+        "status": "Finish"
+    },
+    {
+        "id": "56",
+        "game": "Apex Legends Steam",
+        "size": "1.84 MB",
+        "date": "2025-03-07 11:59:52",
+        "status": "Finish"
+    },
+    {
+        "id": "57",
+        "game": "Arena Breakout",
+        "size": "486.48 KB",
+        "date": "2025-03-06 18:12:43",
+        "status": "Finish"
+    },
+    {
+        "id": "58",
+        "game": "DragonNest SEA",
+        "size": "167.74 KB",
+        "date": "2025-03-05 16:53:24",
+        "status": "Finish"
+    },
+    {
+        "id": "59",
+        "game": "Naraka Epic",
+        "size": "3.30 MB",
+        "date": "2025-03-05 16:46:19",
+        "status": "Finish"
+    },
+    {
+        "id": "60",
+        "game": "ZingSpeed Mobile",
+        "size": "280.19 KB",
+        "date": "2025-03-05 14:51:26",
+        "status": "Finish"
+    },
+    {
+        "id": "61",
+        "game": "Rainbow Six Siege",
+        "size": "986.76 KB",
+        "date": "2025-03-05 06:54:58",
+        "status": "Finish"
+    },
+    {
+        "id": "62",
+        "game": "World of Warships",
+        "size": "1,023.34 KB",
+        "date": "2025-03-04 19:02:10",
+        "status": "Finish"
+    },
+    {
+        "id": "63",
+        "game": "Star Rail",
+        "size": "1.47 MB",
+        "date": "2025-03-04 14:50:54",
+        "status": "Finish"
+    },
+    {
+        "id": "64",
+        "game": "Last Epoch Steam",
+        "size": "1,004.19 KB",
+        "date": "2025-03-03 11:28:17",
+        "status": "Finish"
+    },
+    {
+        "id": "65",
+        "game": "A.V.A Global Steam",
+        "size": "1.30 MB",
+        "date": "2025-03-03 10:22:21",
+        "status": "Finish"
+    },
+    {
+        "id": "92",
+        "game": "Dead by Daylight",
+        "size": "878.26 KB",
+        "date": "2025-02-13 12:34:28",
+        "status": "Finish"
+    },
+    {
+        "id": "93",
+        "game": "WWE2K23 Steam",
+        "size": "1.06 MB",
+        "date": "2025-02-12 15:51:20",
+        "status": "Finish"
+    },
+    {
+        "id": "94",
+        "game": "Eternal Return Steam",
+        "size": "737.60 KB",
+        "date": "2025-02-12 15:39:02",
+        "status": "Finish"
+    },
+    {
+        "id": "95",
+        "game": "Myth Of Empires Steam",
+        "size": "1.16 MB",
+        "date": "2025-02-12 15:38:53",
+        "status": "Finish"
+    },
+    {
+        "id": "96",
+        "game": "GPlay",
+        "size": "1.09 MB",
+        "date": "2025-02-12 14:15:48",
+        "status": "Finish"
+    },
+    {
+        "id": "97",
+        "game": "TheGioiHoanMy",
+        "size": "754.91 KB",
+        "date": "2025-02-12 13:58:15",
+        "status": "Finish"
+    },
+    {
+        "id": "98",
+        "game": "Lost Light Steam",
+        "size": "17.90 MB",
+        "date": "2025-02-12 13:47:43",
+        "status": "Finish"
+    },
+    {
+        "id": "99",
+        "game": "Genshin Impact",
+        "size": "1.31 MB",
+        "date": "2025-02-12 08:56:37",
+        "status": "Finish"
+    },
+    {
+        "id": "100",
+        "game": "MapleStory Nexon",
+        "size": "449.95 KB",
+        "date": "2025-02-11 16:13:57",
+        "status": "Finish"
+    },
+    {
+        "id": "101",
+        "game": "Enlisted",
+        "size": "653.04 KB",
+        "date": "2025-02-11 15:49:51",
+        "status": "Finish"
+    },
+    {
+        "id": "102",
+        "game": "Diablo III",
+        "size": "268.76 KB",
+        "date": "2025-02-05 14:13:38",
+        "status": "Finish"
+    },
+    {
+        "id": "103",
+        "game": "Paladins",
+        "size": "1.17 MB",
+        "date": "2025-02-04 06:53:35",
+        "status": "Finish"
+    },
+    {
+        "id": "104",
+        "game": "Soul Mask Steam",
+        "size": "647.13 KB",
+        "date": "2025-02-03 14:17:25",
+        "status": "Finish"
+    },
+    {
+        "id": "105",
+        "game": "Age of Empires IV Steam",
+        "size": "1.77 MB",
+        "date": "2025-02-02 22:43:12",
+        "status": "Finish"
+    },
+    {
+        "id": "106",
+        "game": "Squad Steam",
+        "size": "1.21 MB",
+        "date": "2025-02-02 22:01:33",
+        "status": "Finish"
+    },
+    {
+        "id": "107",
+        "game": "No More Room in Hell",
+        "size": "1.05 MB",
+        "date": "2025-02-02 11:51:07",
+        "status": "Finish"
+    },
+    {
+        "id": "108",
+        "game": "Armored Core 6  Steam",
+        "size": "884.29 KB",
+        "date": "2025-02-02 11:48:24",
+        "status": "Finish"
+    },
+    {
+        "id": "109",
+        "game": "Path of Exile 2 steam",
+        "size": "8.26 MB",
+        "date": "2025-02-01 10:48:31",
+        "status": "Finish"
+    },
+    {
+        "id": "110",
+        "game": "Watch Dogs 2 Epic",
+        "size": "1.85 MB",
+        "date": "2025-01-31 18:05:33",
+        "status": "Finish"
+    },
+    {
+        "id": "111",
+        "game": "Spellbreak",
+        "size": "1.07 MB",
+        "date": "2025-01-31 17:58:41",
+        "status": "Finish"
+    },
+    {
+        "id": "135",
+        "game": "FC25 Steam",
+        "size": "873.22 KB",
+        "date": "2025-01-27 20:31:08",
+        "status": "Finish"
+    },
+    {
+        "id": "136",
+        "game": "FC24 Steam",
+        "size": "996.40 KB",
+        "date": "2025-01-27 20:31:08",
+        "status": "Finish"
+    },
+    {
+        "id": "137",
+        "game": "Fifa 22 Steam",
+        "size": "756.99 KB",
+        "date": "2025-01-27 20:31:08",
+        "status": "Finish"
+    },
+    {
+        "id": "138",
+        "game": "Call Of Dragon",
+        "size": "380.09 KB",
+        "date": "2025-01-27 19:45:08",
+        "status": "Finish"
+    },
+    {
+        "id": "139",
+        "game": "Payday 2 Steam",
+        "size": "2.12 MB",
+        "date": "2025-01-27 19:44:26",
+        "status": "Finish"
+    },
+    {
+        "id": "140",
+        "game": "Sekiro Steam",
+        "size": "842.54 KB",
+        "date": "2025-01-27 19:16:55",
+        "status": "Finish"
+    },
+    {
+        "id": "141",
+        "game": "Kiem The",
+        "size": "139.56 KB",
+        "date": "2025-01-27 11:51:40",
+        "status": "Finish"
+    },
+    {
+        "id": "142",
+        "game": "KiemTheOrigin PC",
+        "size": "336.09 KB",
+        "date": "2025-01-27 11:51:40",
+        "status": "Finish"
+    },
+    {
+        "id": "143",
+        "game": "Super People 2 Steam",
+        "size": "955.09 KB",
+        "date": "2025-01-27 11:51:13",
+        "status": "Finish"
+    },
+    {
+        "id": "144",
+        "game": "Super People CBT",
+        "size": "873.13 KB",
+        "date": "2025-01-27 11:51:13",
+        "status": "Finish"
+    },
+    {
+        "id": "145",
+        "game": "Tower Of Fantasy",
+        "size": "761.35 KB",
+        "date": "2025-01-27 11:34:52",
+        "status": "Finish"
+    },
+    {
+        "id": "146",
+        "game": "Blade And Soul WIKI",
+        "size": "3.56 MB",
+        "date": "2025-01-27 11:22:35",
+        "status": "Finish"
+    },
+    {
+        "id": "147",
+        "game": "Knives Out",
+        "size": "18.75 MB",
+        "date": "2025-01-27 09:58:35",
+        "status": "Finish"
+    },
+    {
+        "id": "148",
+        "game": "Ghost Recon Breakpoint Ubi",
+        "size": "638.50 KB",
+        "date": "2025-01-27 09:54:20",
+        "status": "Finish"
+    },
+    {
+        "id": "149",
+        "game": "Ghost Recon Breakpoint",
+        "size": "1.08 MB",
+        "date": "2025-01-27 09:54:06",
+        "status": "Finish"
+    },
+    {
+        "id": "150",
+        "game": "Tom Clancy's Ghost Recon Steam",
+        "size": "1.09 MB",
+        "date": "2025-01-27 09:49:50",
+        "status": "Finish"
+    },
+    {
+        "id": "151",
+        "game": "Ghostrunner",
+        "size": "1.91 MB",
+        "date": "2025-01-27 09:18:09",
+        "status": "Finish"
+    },
+    {
+        "id": "152",
+        "game": "TLBB2 VNG",
+        "size": "781.87 KB",
+        "date": "2025-01-27 09:13:50",
+        "status": "Finish"
+    },
+    {
+        "id": "153",
+        "game": "Battlefield V Steam",
+        "size": "1.20 MB",
+        "date": "2025-01-27 08:53:13",
+        "status": "Finish"
+    },
+    {
+        "id": "154",
+        "game": "Battlefield 1 Steam",
+        "size": "1.21 MB",
+        "date": "2025-01-26 23:42:25",
+        "status": "Finish"
+    },
+    {
+        "id": "179",
+        "game": "The Scourge Steam",
+        "size": "752.84 KB",
+        "date": "2025-01-22 15:08:31",
+        "status": "Finish"
+    },
+    {
+        "id": "180",
+        "game": "Vampire The Masquerade Bloodhunt Steam",
+        "size": "1.12 MB",
+        "date": "2025-01-22 15:05:15",
+        "status": "Finish"
+    },
+    {
+        "id": "181",
+        "game": "Deceit",
+        "size": "2.76 MB",
+        "date": "2025-01-22 15:01:33",
+        "status": "Finish"
+    },
+    {
+        "id": "182",
+        "game": "Baldur Gate 3 Steam",
+        "size": "1.42 MB",
+        "date": "2025-01-22 14:55:03",
+        "status": "Finish"
+    },
+    {
+        "id": "183",
+        "game": "Dead Space Steam",
+        "size": "1.11 MB",
+        "date": "2025-01-22 14:38:44",
+        "status": "Finish"
+    },
+    {
+        "id": "184",
+        "game": "Deep Rock Galactic",
+        "size": "653.78 KB",
+        "date": "2025-01-22 14:30:13",
+        "status": "Finish"
+    },
+    {
+        "id": "185",
+        "game": "Dying Light 1 Steam",
+        "size": "2.75 MB",
+        "date": "2025-01-22 14:28:52",
+        "status": "Finish"
+    },
+    {
+        "id": "186",
+        "game": "GTAV VN",
+        "size": "807.33 KB",
+        "date": "2025-01-21 11:34:54",
+        "status": "Finish"
+    },
+    {
+        "id": "187",
+        "game": "Left 4 Dead 2 Steam",
+        "size": "7.57 MB",
+        "date": "2025-01-18 22:43:45",
+        "status": "Finish"
+    },
+    {
+        "id": "188",
+        "game": "Doom Eternal",
+        "size": "1.05 MB",
+        "date": "2025-01-14 00:14:40",
+        "status": "Finish"
+    },
+    {
+        "id": "189",
+        "game": "The Witcher3 Wild Hunt",
+        "size": "1.18 MB",
+        "date": "2025-01-08 20:12:54",
+        "status": "Finish"
+    },
+    {
+        "id": "190",
+        "game": "Injustice2 Steam",
+        "size": "1.23 MB",
+        "date": "2025-01-08 15:59:03",
+        "status": "Finish"
+    },
+    {
+        "id": "191",
+        "game": "Mortal Kombat X Steam",
+        "size": "1.17 MB",
+        "date": "2025-01-08 15:35:43",
+        "status": "Finish"
+    },
+    {
+        "id": "192",
+        "game": "ARK",
+        "size": "41.29 MB",
+        "date": "2025-01-07 14:12:36",
+        "status": "Finish"
+    },
+    {
+        "id": "193",
+        "game": "AimLab",
+        "size": "3.02 MB",
+        "date": "2025-01-07 14:12:35",
+        "status": "Finish"
+    },
+    {
+        "id": "194",
+        "game": "Assassin Creed Unity",
+        "size": "887.89 KB",
+        "date": "2025-01-07 14:11:53",
+        "status": "Finish"
+    },
+    {
+        "id": "195",
+        "game": "Back 4 Blood on Steam",
+        "size": "803.63 KB",
+        "date": "2025-01-07 14:11:53",
+        "status": "Finish"
+    },
+    {
+        "id": "196",
+        "game": "Assassins Creed Origins",
+        "size": "973.22 KB",
+        "date": "2025-01-07 14:11:53",
+        "status": "Finish"
+    },
+    {
+        "id": "197",
+        "game": "Black Myth Wukong Steam",
+        "size": "1.54 MB",
+        "date": "2025-01-07 14:11:53",
+        "status": "Finish"
+    },
+    {
+        "id": "198",
+        "game": "COD WarZone",
+        "size": "968.24 KB",
+        "date": "2025-01-07 14:10:35",
+        "status": "Finish"
+    },
+    {
+        "id": "222",
+        "game": "Total War Three Kingdoms Steam",
+        "size": "1.07 MB",
+        "date": "2025-01-07 13:56:54",
+        "status": "Finish"
+    },
+    {
+        "id": "223",
+        "game": "StarCraft II",
+        "size": "387.58 KB",
+        "date": "2025-01-07 13:56:54",
+        "status": "Finish"
+    },
+    {
+        "id": "224",
+        "game": "Vo Lam Truyen Ky I",
+        "size": "191.71 KB",
+        "date": "2025-01-07 13:51:20",
+        "status": "Finish"
+    },
+    {
+        "id": "225",
+        "game": "WarThunder Gaijin",
+        "size": "976.91 KB",
+        "date": "2025-01-07 13:51:20",
+        "status": "Finish"
+    },
+    {
+        "id": "226",
+        "game": "Vo Lam Truyen Ky II",
+        "size": "64.66 KB",
+        "date": "2025-01-07 13:51:20",
+        "status": "Finish"
+    },
+    {
+        "id": "227",
+        "game": "Warface Steam",
+        "size": "856.75 KB",
+        "date": "2025-01-07 13:51:20",
+        "status": "Finish"
+    }
+]
