@@ -17,7 +17,6 @@ libxml_use_internal_errors(true);
 $dom->loadHTML($html);
 libxml_clear_errors();
 
-// Tìm dữ liệu trong bảng
 $xpath = new DOMXPath($dom);
 $rows = $xpath->query("//tr");
 
@@ -26,25 +25,20 @@ $existingData = [];
 if (file_exists($jsonFile)) {
     $jsonContent = file_get_contents($jsonFile);
     $existingData = json_decode($jsonContent, true);
-
-    // Nếu JSON không hợp lệ, đặt giá trị mặc định là mảng rỗng
     if (!is_array($existingData)) {
         $existingData = [];
     }
 }
 
-// Lấy danh sách ID đã lưu
 $existingIds = array_column($existingData, 'id');
 
-
-// Duyệt từng hàng trong bảng
 foreach ($rows as $row) {
     if ($row instanceof DOMElement) {
         $columns = $row->getElementsByTagName("td");
     } else {
-        die("Lỗi: \$row không phải là DOMElement");
+        continue;
     }
-    
+
     if ($columns->length >= 5) {
         $id = trim($columns->item(0)->textContent);
         $gameName = trim($columns->item(1)->textContent);
@@ -52,8 +46,7 @@ foreach ($rows as $row) {
         $date = trim($columns->item(3)->textContent);
         $status = trim($columns->item(4)->textContent);
 
-
-        // Kiểm tra xem thông báo này đã được gửi trước đó chưa
+        // Kiểm tra xem đã gửi thông báo chưa
         $found = false;
         foreach ($existingData as $entry) {
             if ($entry['id'] == $id && $entry['date'] == $date) {
@@ -64,11 +57,11 @@ foreach ($rows as $row) {
 
         if (!$found) {
             // Gửi tin nhắn Telegram
-            $message = "🎮 Game mới cập nhật:\n";
-            $message .= "🆔 ID: $id\n";
-            $message .= "🎮 Tên: $gameName\n";
-            $message .= "📂 Kích thước: $size\n";
-            $message .= "📅 Ngày cập nhật: $date\n";
+            $message = "🎮 *Game mới cập nhật:*\n";
+            $message .= "🆔 *ID:* $id\n";
+            $message .= "🎮 *Tên:* $gameName\n";
+            $message .= "📂 *Kích thước:* $size\n";
+            $message .= "📅 *Ngày cập nhật:* $date\n";
 
             $telegramApi = "https://api.telegram.org/bot$botToken/sendMessage";
             $dataTelegram = [
@@ -77,37 +70,64 @@ foreach ($rows as $row) {
                 'parse_mode' => 'Markdown'
             ];
 
-            $options = [
-                'http' => [
-                    'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
-                    'method'  => 'POST',
-                    'content' => http_build_query($dataTelegram)
-                ]
-            ];
+            $attempts = 0;
+            $maxAttempts = 5;
+            $sent = false;
 
-            $context  = stream_context_create($options);
-            $result = file_get_contents($telegramApi, false, $context);
+            while ($attempts < $maxAttempts && !$sent) {
+                $result = sendTelegramMessage($telegramApi, $dataTelegram);
+                if ($result['status'] === "success") {
+                    echo "Đã gửi thông báo cho $gameName\n";
+                    $sent = true;
 
-            if ($result) {
-                echo "Đã gửi thông báo cho $gameName\n";
-                
-                // Lưu vào JSON
-                $newEntry = [
-                    "id" => $id,
-                    "game" => $gameName,
-                    "size" => $size,
-                    "date" => $date,
-                    "status" => $status,
-                ];
-
-                $existingData[] = $newEntry;
-                file_put_contents($jsonFile, json_encode($existingData, JSON_PRETTY_PRINT));
-            } else {
-                echo "Gửi tin nhắn thất bại!\n";
+                    // Lưu vào JSON
+                    $newEntry = [
+                        "id" => $id,
+                        "game" => $gameName,
+                        "size" => $size,
+                        "date" => $date,
+                        "status" => $status,
+                    ];
+                    $existingData[] = $newEntry;
+                    file_put_contents($jsonFile, json_encode($existingData, JSON_PRETTY_PRINT));
+                } elseif ($result['code'] == 429) {
+                    echo "Lỗi 429: Quá nhiều request! Chờ 5 giây...\n";
+                    sleep(5);
+                } else {
+                    echo "Gửi tin nhắn thất bại! Thử lại...\n";
+                    sleep(2);
+                }
+                $attempts++;
             }
+
+            // Giảm tải API bằng cách đợi giữa các request
+            usleep(500000); // Dừng 0.5 giây
         } else {
             echo "Game $gameName đã được thông báo trước đó.\n";
         }
+    }
+}
+
+/**
+ * Gửi tin nhắn Telegram bằng cURL
+ */
+function sendTelegramMessage($url, $data) {
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+
+    $response = curl_exec($ch);
+    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($httpCode == 200) {
+        return ["status" => "success", "response" => $response];
+    } elseif ($httpCode == 429) {
+        return ["status" => "error", "code" => 429, "response" => $response];
+    } else {
+        return ["status" => "error", "code" => $httpCode, "response" => $response];
     }
 }
 ?>
